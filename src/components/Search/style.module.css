@@ -1,0 +1,26 @@
+.searchin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 355px;
+  height: 47px;
+  background: #e4e8ee;
+  border-radius: 10px;
+}
+.icon {
+  padding-right: 13px;
+}
+/* Search */
+.searchinput {
+  padding-left: 13px;
+  border: none;
+  background-color: unset;
+  width: 85%;
+  height: 18px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a6adc1;
+}

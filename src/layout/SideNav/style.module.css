@@ -1,0 +1,113 @@
+/* email system 3 */
+.hiro {
+  height: 100%;
+  /* height: 100vh; */
+  max-height: 100%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.logo {
+  margin-top: 40%;
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+}
+.navcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+}
+.navbtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 14%;
+  /* border-radius: 9px; */
+  /* background-color: rgb(255, 255, 255); */
+}
+.navbtns > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
+.navbtns:hover {
+  border-right: 4px solid #00a389;
+  /* color: #00a389; */
+  width: 100%;
+}
+.navbtns:hover div {
+  background-color: #00a38861;
+}
+.navbtns:hover svg {
+  color: #ffffffd4;
+}
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 14%;
+  border-right: 4px solid #00a389;
+  /* color: #00a389; */
+  width: 100%;
+}
+.active > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+  background-color: #00a38861;
+}
+.logos {
+  font-size: 20px;
+  color: rgba(87, 87, 87, 0.7);
+}
+.active > div > svg {
+  color: #ffffffd4;
+}
+.useravater {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(87, 87, 87, 0.429);
+  color: aliceblue;
+  margin-bottom: 30%;
+  font-size: medium;
+  font-weight: 700;
+}
+@media screen and (width > 900px) {
+  .hiro {
+    width: 7%;
+  }
+  .logo {
+    /* margin-top: 40%; */
+    font-size: 45px;
+    /* color: rgb(87, 87, 87); */
+  }
+  .useravater {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 42px;
+    height: 42px;
+    /* border-radius: 50%;
+    background: rgba(87, 87, 87, 0.429);
+    color: aliceblue;
+    margin-bottom: 30%; */
+  }
+}
