@@ -7,6 +7,16 @@ export default function NewMessage() {
       <div className={styles.header}>
         <h1> Send new message</h1>
       </div>
+      <div className={styles.inputs}>
+        <div className={styles.input}>
+          <div>Sobjeckt</div>
+          <input type="text" />
+        </div>
+        <div className={styles.input}>
+          <div>Members</div>
+          <input type="text" />
+        </div>
+      </div>
     </div>
   );
 }

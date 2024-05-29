@@ -1,6 +1,6 @@
 import axios from "axios";
 // axios.defaults.baseURL = "https://target-pedagogy.com"
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "http://localhost:7000";
 
 async function apicalls(method, url, data, headers) {
   try {

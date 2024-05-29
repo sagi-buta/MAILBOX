@@ -1,4 +1,8 @@
 .hiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
   height: 100%;
   width: 75%;
   /* background-color: #00a389; */
@@ -15,4 +19,35 @@
   height: 10%;
   border-bottom: 1px solid #a2aab4;
   padding-left: 2%;
+}
+.inputs {
+  padding-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 40%;
+  background-color: aquamarine;
+  gap: 10%;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 10%;
+  gap: 4%;
+}
+.input > div {
+  width: 20%;
+  font-size: larger;
+  font-weight: 700;
+}
+.input > input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(195, 195, 195, 0.763);
+  border-radius: 10px;
 }
